@@ -1,0 +1,41 @@
+// Save as: kathmandu-traffic-game/index.html
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Kathmandu Traffic Jam</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div id="game-container">
+			<canvas id="gameCanvas"></canvas>
+			<div id="ui">
+				<div>Level: <span id="level">1</span></div>
+				<div>Score: <span id="score">0</span></div>
+				<div>Lives: <span id="lives">3</span></div>
+			</div>
+			<div id="menu" class="screen">
+				<h1>Kathmandu Traffic Jam</h1>
+				<button id="startGame">Start Game</button>
+				<button id="instructions">Instructions</button>
+			</div>
+			<div id="gameOver" class="screen hidden">
+				<h1>Game Over</h1>
+				<p>Score: <span id="finalScore">0</span></p>
+				<button id="restartGame">Play Again</button>
+			</div>
+		</div>
+
+		<!-- Load game scripts -->
+		<script src="js/utils.js"></script>
+		<script src="js/TrafficLight.js"></script>
+		<script src="js/Vehicle.js"></script>
+		<script src="js/PowerUp.js"></script>
+		<script src="js/Game.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

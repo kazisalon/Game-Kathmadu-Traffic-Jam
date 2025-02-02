@@ -1,0 +1,19 @@
+{
+	"name": "Level 2",
+	"difficulty": "medium",
+	"trafficLights": [
+		{ "x": 200, "y": 200 },
+		{ "x": 600, "y": 400 },
+		{ "x": 400, "y": 300 }
+	],
+	"vehicles": [
+		{ "type": "car", "startX": 100, "startY": 100 },
+		{ "type": "bus", "startX": 300, "startY": 300 },
+		{ "type": "bike", "startX": 500, "startY": 200 },
+		{ "type": "car", "startX": 700, "startY": 400 }
+	],
+	"powerUps": [
+		{ "type": "speed", "x": 400, "y": 300 },
+		{ "type": "freeze", "x": 200, "y": 500 }
+	]
+}

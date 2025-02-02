@@ -1,0 +1,14 @@
+{
+	"name": "Level 1",
+	"difficulty": "easy",
+	"trafficLights": [
+		{ "x": 200, "y": 200 },
+		{ "x": 600, "y": 400 }
+	],
+	"vehicles": [
+		{ "type": "car", "startX": 100, "startY": 100 },
+		{ "type": "bus", "startX": 300, "startY": 300 },
+		{ "type": "bike", "startX": 500, "startY": 200 }
+	],
+	"powerUps": [{ "type": "speed", "x": 400, "y": 300 }]
+}
